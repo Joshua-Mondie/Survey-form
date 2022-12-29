@@ -8,7 +8,46 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello</h1>
-     <p>“Hello World, we are software developers!” </p>
+    <h1 id='title'>hello</h1>
+    <p id='description'>“Hello World, we are software developers!”</p>
+    <form id='survey-form'> 
+      <input type="text" required='email'id='name' placeholder="name"/>
+      <input type='email' id='email' required='email'
+        placeholder="email">
+      <input type='number' id='number' required='number'
+        min="10" max="100"
+        placeholder="number">
+
+      <label id='name-label'><label>
+      <label id='number-label'><label>
+            <label id='email-label'><label>
+
+      <label id="dropdown">Which options best describes your current role?
+      <select id="dropdown" required>
+    
+        <option value="1">Student</option>
+        <option value="2">Full Time Job</option>
+
+        </select>
+        </label>
+
+
+
+        
+
+            <fieldset id="dropdown">
+            <label for="r_definitely"><input type="radio" required='Definately' name="recommend" id="r_definitely" required>Definitely</label>
+            <label for="r_maybe"><input type="radio" name="recommend" id="r_maybe" required='Definately' >Maybe</label>
+            <label for="r_not_sure"><input type="radio" name="recommend" id="r_not_sure" required='definately'>Not sure</label>
+            </fieldset>
+
+            <textarea id="story" name="story"
+                rows="5" cols="33">
+        
+        </textarea>
+
+        <button id='submit'type='submit'>submit here</button>
+
+      </form>
 </body>
 </html>
